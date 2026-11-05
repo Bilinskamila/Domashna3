@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formula 1</title>
+    <link rel="stylesheet" href="proektstyle.css">
+    <script src="proektjs.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Formula 1 Simulator</h1>
+        <p>10 drivers • 10 laps</p>
+
+        <section class="info">
+            <h2>Race rules</h2>
+            <p>Each remaining driver must make one pit stop and switch tires.</p>
+            <p>Pit stop: +20 seconds | Spin: +5 seconds</p>
+            <p>Safety Car: +15 seconds per active driver that completes the lap.</p>
+            <p>DNF means the driver has retired from the race.</p>
+
+            <button id="startButton">Start Race</button>
+            <p id="raceStatus" role="status">Ready to race.</p>
+        </section>
+
+        <div id="winner" aria-live="polite"></div>
+        <div id="results"></div>
+    </main>
+</body>
+</html>

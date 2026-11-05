@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: #181818;
+    color: #eeeeee;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: red;
+}
+
+.info,
+.standings {
+    background-color: #262626;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: none;
+    padding: 8px;
+    text-align: left;
+}
+
+.dnf {
+    color: lightcoral;
+}
+
+.safety-car {
+    color: yellow;
+}
+
+#winner {
+    color: lightgreen;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
